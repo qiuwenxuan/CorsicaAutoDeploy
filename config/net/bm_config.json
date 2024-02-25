@@ -1,0 +1,58 @@
+{
+  "NET_COUNT": 2,
+  "BLK_COUNT": 0,
+  "include": [
+    "base_config.json"
+  ],
+  "VM_TYPE": 1,
+  "BLK_TYPE": 0,
+  "BOOT_MODE": 2,
+  "QEMU_NAME": "bm",
+  "VHOST_IMG_LIST": [
+  ],
+  "RAW_FILE_CFG": {
+    "RAW_FILE_DIR": "/data/host_disk_images",
+    "RAW_FILE_PRE": "data",
+    "RAW_FILE_SUF": ".raw",
+    "RAW_FILE_INDEX_START": 1,
+    "RAW_FILE_INDEX_END": 9,
+    "RAW_FILE_CAP": 1024
+  },
+  "VIRTIO_REF_LIST": [
+    "virtio",
+    "virtio-non-transitional",
+    "virtio-transitional",
+    "virtio1.1-non-transitional",
+    "virtio1.1-transitional"
+  ],
+  "NET_VIRTIO_LIST": [
+    "virtio-transitional",
+    "virtio1.1-transitional"
+  ],
+  "BLK_VIRTIO_LIST": [
+  ],
+  "RDMA_SWITCH_LIST": [
+    "off",
+    "off",
+    "off",
+    "off"
+  ],
+  "NET_MQ_LIST": [
+    "on",
+    "on"
+  ],
+  "NVME_SWITCH_LIST": [
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off"
+  ],
+  "extra_blk": [],
+  "SOCKM_ENABLE": 1,
+  "SOCKM_VIRTIO_TYPE": "virtio",
+  "START_QMP_SERVER": 1
+}
